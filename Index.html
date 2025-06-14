@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="Images/Icon.png" type="image/x-icon">
+    <title>CoderPRO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="main">
+
+<div class="menubar">
+
+    <!-- 1st Table -->
+    <div class="icon" >
+         <img class="logo" src="Images/Logo.png" alt="developer_6681244">      
+          <h2>CoderPRO</h2>     
+              </div>
+
+    <!-- 2nd Table -->
+
+    <div class="menu-item">
+         <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">DESIGN</a></li>
+            <li><a href="#">CONTACT</a></li>
+         </ul>
+    </div>
+
+     <!-- 3rd Table -->
+    <div class="search">
+
+    <input type="search" class="scr" placeholder="Search Here">
+    
+    <a href="#" ><button class="btn">Search</button></a>
+
+    </div>
+    <!-- 4th Table -->
+
+</div>
+
+   
+ <!-- 5th Table -->
+
+  <div class="content">
+    
+<h1>Full Stack<br><span>Web Development</span> Course</h1>
+
+<p class="pr">A full stack web developer builds both front-end and back-end parts of websites and applications.<br>
+They work with databases, servers, APIs, and 
+client-side interfaces, using technologies <br>
+like HTML, CSS, JavaScript, React, Node.js, and more. <br> Their versatile skills help deliver complete, functional, and responsive web solutions from start to finish.
+</p>
+
+<a href="#" ><button class="cn">JOIN US</button></a>
+
+<div class="form">
+    <h2>Login Here</h2><br>
+    <input type="email" name="email" placeholder="Enter Your Email">
+    <br><br>
+    
+        <input type="password" id="password" placeholder="Enter password">
+        
+        <input type="checkbox" id="ShowPassword" onclick="togglePassword()"></td>
+
+
+<a href="#" ><button class="bttn">Log In</button></a>
+
+<p class="link">Don't have an account?</p>
+<a class="sg" href="#">Sign Up <span>Here</span></a>
+<p class="lg">Log in with</p>
+
+<div class="icon">
+    <a href="https://www.facebook.com/MahediHasanAbir8/" target="_blank"><ion-icon name="logo-facebook"></ion-icon> </a>
+    <a href="https://www.linkedin.com/in/mahedi-hasan8/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon> </a>
+    <a href="https://x.com/AbirX_Digital" target="_blank"><ion-icon name="logo-twitter"></ion-icon> </a>
+    <a  href="https://www.instagram.com/mahedi_hasan_abir8/" target="_blank"><ion-icon name="logo-instagram" class="ins"></ion-icon> </a>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<script>
+function togglePassword() {
+    const passInput = document.getElementById('password');
+    const checkbox = document.getElementById('ShowPassword');
+    if (checkbox.checked) {
+        passInput.type = 'text';
+    } else {
+        passInput.type = 'password';
+    }
+}
+</script>
+</body>
+</html>
